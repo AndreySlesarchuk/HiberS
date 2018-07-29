@@ -1,2 +1,2 @@
-# Hibernate-Hello-World
-Hibernate first example
+# HiberS
+HibeS first example
