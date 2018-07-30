@@ -1,4 +1,4 @@
-package com.example.sweater.controller;
+package com.bookingshelf.controller;
 
 import com.bookingshelf.entity.Role;
 import com.bookingshelf.entity.User;
@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping("/user")
-@PreAuthorize("hasAuthority('ADMIN')")
+//@PreAuthorize("hasAuthority('ADMIN')")
 public class UserController {
     @Autowired
     private UserRepo userRepo;
